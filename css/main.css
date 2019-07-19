@@ -1272,25 +1272,28 @@ th {
 .single-filter-content:hover .overlay-bg-content {
   opacity: 1;
 }
-
+.service-text > h2{
+  color:white;
+  text-shadow: 2px 2px 2px black;
+  }
 .single-filter-content.content-1 {
-  background: url(../img/3.jpg) no-repeat center center/cover;
+  background: url(../img/Sound\ 1.JPG) no-repeat center center/cover;
 }
 
 .single-filter-content.content-2 {
-  background: url(../img/c2.jpg) no-repeat center center/cover;
+  background: url(../img/ASCAP\ 2.JPG ) no-repeat center center/cover;
 }
 
 .single-filter-content.content-3 {
-  background: url(../img/c3.jpg) no-repeat center center/cover;
+  background: url(../img/ASO.jpg) no-repeat center center/cover;
 }
 
 .single-filter-content.content-4 {
-  background: url(../img/c4.jpg) no-repeat center center/cover;
+  background: url(../img/PeopleMagazineRedCarpet.jpg) no-repeat center center/cover;
 }
 
 .single-filter-content.content-5 {
-  background: url(../img/c5.jpg) no-repeat center center/cover;
+  background: url(../img//MusicCityGivesBack.JPG) no-repeat center center/cover;
 }
 
 .single-filter-content.content-6 {
