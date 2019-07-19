@@ -13,6 +13,12 @@ $(document).ready(function(){
  //        // Animate loader off screen
  //        $(".preloader").fadeOut("slow");;
  //    });
+ $(".rotating").Morphext({
+  animation: "flipInX",
+  separator: ",",
+  speed: 3000
+});
+
 	
 	$(".fullscreen").css("height", window_height)
 	$(".fitscreen").css("height", fitscreen);
