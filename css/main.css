@@ -40,7 +40,7 @@
 
 body {
   color: #777777;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: 300;
   line-height: 1.5em;
@@ -122,7 +122,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #222222;
   line-height: 1.5em;
   margin-bottom: 0;
@@ -138,7 +138,7 @@ h6 {
 .h6 {
   margin-bottom: 0;
   margin-top: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 600;
   color: #222222;
 }
@@ -181,7 +181,7 @@ th {
 .banner-area h2 {
   color: #999;
 }
-.rotating-text{
+.rotating-text {
   font-weight: 200;
   color: white;
 }
@@ -192,14 +192,14 @@ th {
 
 .clear::before,
 .clear::after {
-  content: " ";
+  content: ' ';
   display: table;
 }
 
 .clear::after {
   clear: both;
 }
-.dropdown-item{
+.dropdown-item {
   color: #000;
 }
 
@@ -588,6 +588,9 @@ th {
 
 .section-half {
   padding: 75px 0;
+}
+.service-section {
+  padding: 25px 0;
 }
 .section-title-divider {
   width: 80px;
@@ -1138,15 +1141,13 @@ th {
   height: 100vh;
   background: url(../img/speakers.jpg) top center;
   background-size: cover;
- 
 }
 @media (min-width: 1024px) {
   .banner-area {
     background-attachment: fixed;
   }
 }
-.banner-container{
- 
+.banner-container {
   display: table-cell;
   margin: 0;
   padding: 0;
@@ -1160,18 +1161,18 @@ th {
 
 #about {
   background: linear-gradient(
-      rgba(255, 255, 255, 0.9),
-      rgba(255, 255, 255, 0.9)
-    );
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.9)
+  );
   background-size: cover;
   padding: 80px 0 60px 0;
 }
 
-.about-section{
+.about-section {
   margin: 0 auto;
 }
 
-.about-text{
+.about-text {
   font-size: 18px;
   font-weight: 400;
 }
@@ -1309,24 +1310,21 @@ th {
   opacity: 1;
 }
 #services {
-  background: linear-gradient(
-      rgba(32, 32, 32, 0.9),
-      rgba(255, 255, 255, 0.9)
-    ),
-    url("../img/speakersagain.jpg") fixed center center;
+  background: linear-gradient(rgba(32, 32, 32, 0.9), rgba(255, 255, 255, 0.9)),
+    url('../img/speakersagain.jpg') fixed center center;
   background-size: cover;
   padding: 80px 0 60px 0;
 }
-.service-text > h2{
-  color:white;
+.service-text > h2 {
+  color: white;
   text-shadow: 2px 2px 2px black;
-  }
-.services-button{
+}
+.services-button {
   background-color: #00b8de;
   color: black;
   border: black;
 }
-.services-button:hover{
+.services-button:hover {
   background-color: #00b8de;
   color: black;
 }
@@ -1335,7 +1333,7 @@ th {
 }
 
 .single-filter-content.content-2 {
-  background: url(../img/ASCAP\ 2.JPG ) no-repeat center center/cover;
+  background: url(../img/ascap\2jpg) no-repeat center center/cover;
 }
 
 .single-filter-content.content-3 {
@@ -1351,11 +1349,13 @@ th {
 }
 
 .single-filter-content.content-6 {
-  background: url(../img//PeopleMagazineRedCarpet.jpg) no-repeat center center/cover;
+  background: url(../img//PeopleMagazineRedCarpet.jpg) no-repeat center
+    center/cover;
 }
 
 .single-filter-content.content-7 {
-  background: url(../img/GovenorsInauguration2019.jpg) no-repeat center center/cover;
+  background: url(../img/GovenorsInauguration2019.jpg) no-repeat center
+    center/cover;
 }
 
 .single-filter-content.content-8 {
@@ -1451,7 +1451,7 @@ th {
 
 .studio-area:before {
   position: absolute;
-  content: "";
+  content: '';
   left: 0;
   top: 0;
   width: 50%;
@@ -1469,7 +1469,7 @@ th {
 
 .studio-area:after {
   position: absolute;
-  content: "";
+  content: '';
   right: 0;
   top: 0;
   width: 50%;
@@ -1531,10 +1531,10 @@ th {
 .single-pricing-table .bottom ul li {
   margin-top: 15px;
 }
-.testimonials{
+.testimonials {
   padding-bottom: 1rem;
   padding-top: 1rem;
-  opacity: .8;
+  opacity: 0.8;
 }
 .active-testimonial-carousel .single-testimonial {
   padding: 40px 20px;
@@ -1645,8 +1645,8 @@ th {
     margin-top: 10px;
   }
 }
-#blank{
-background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+#blank {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../img/NashvilleSkylineZH.jpg) fixed center center no-repeat;
   width: auto;
   background-size: cover;
@@ -1747,7 +1747,7 @@ footer .footer-nav li a:hover {
 }
 
 @font-face {
-  font-family: "Dungeon";
-  src: url("../fonts/dungeon-webfont.woff") format("woff2"),
-    url("../fonts/dungeon-webfont.woff2") format("woff");
+  font-family: 'Dungeon';
+  src: url('../fonts/dungeon-webfont.woff') format('woff2'),
+    url('../fonts/dungeon-webfont.woff2') format('woff');
 }
