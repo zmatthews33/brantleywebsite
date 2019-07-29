@@ -1328,6 +1328,24 @@ th {
   background-color: #00b8de;
   color: black;
 }
+
+.brand-logo {
+  object-fit:scale-down;
+  margin-left: auto;
+  margin:auto;
+  width: 15vw;
+  height: 15vw;
+
+
+}
+.brand-logo-container {
+
+  background-color: #cccccc;
+  border-style: solid;
+  border-radius: 25px;
+  border: 2px;
+  border-style: solid;
+}
 .single-filter-content.content-1 {
   background: url(../img/AdamsonPic2.JPEG) no-repeat center center/cover;
 }
@@ -1636,8 +1654,11 @@ th {
 }
 
 .cta-area {
-  background: #3d4191;
+  background: #00b8de;
   padding: 60px 0;
+}
+.cta-btn {
+  border: black;
 }
 
 @media (max-width: 767px) {
