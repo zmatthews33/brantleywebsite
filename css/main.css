@@ -1365,6 +1365,10 @@ th {
 	border: 2px;
 	border-style: solid;
 }
+.contact-div {
+	border: 2px solid black;
+	border-radius: 2px;
+}
 .single-filter-content.content-1 {
 	background: url(../img/AdamsonPic2.JPEG) no-repeat center center/cover;
 }
