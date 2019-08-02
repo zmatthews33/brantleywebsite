@@ -47,8 +47,8 @@ body {
 	position: relative;
 }
 .services-page-body {
-	background: linear-gradient(rgba(32, 32, 32, 0.9), rgba(255, 255, 255, 0.9)),
-		url('../img/speakersagain.jpg') fixed center center;
+	background: linear-gradient(rgba(32, 32, 32, 0.8), rgba(255, 255, 255, 0.8)),
+		url('../img/ServicesPageBackgroundSeniorParty.jpg') fixed center center;
 	background-size: cover;
 }
 ol,
@@ -1374,7 +1374,7 @@ th {
 }
 
 .single-filter-content.content-2 {
-	background: url(../img/ascap\2jpg) no-repeat center center/cover;
+	background: url(../img/LightingSevierPark.jpg) no-repeat center center/cover;
 }
 
 .single-filter-content.content-3 {
@@ -1400,7 +1400,7 @@ th {
 }
 
 .single-filter-content.content-8 {
-	background: url(../img/c8.jpg) no-repeat center center/cover;
+	background: url(../img/Rentals.jpg) no-repeat center center/cover;
 }
 
 .single-member {
