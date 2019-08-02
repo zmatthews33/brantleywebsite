@@ -84,7 +84,11 @@ a:hover {
 	outline: 0;
 	color: #777777;
 }
-
+.ruckify-link {
+	text-decoration: none;
+	outline: 0;
+	color: #00b8de;
+}
 .btn.active.focus,
 .btn.active:focus,
 .btn.focus,
