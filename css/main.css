@@ -563,6 +563,12 @@ th {
 	padding-left: 30px;
 }
 
+.pl-70 {
+	padding-left: 70px;
+}
+.pr-70 {
+	padding-right: 70px;
+}
 .p-40 {
 	padding: 40px;
 }
@@ -1360,7 +1366,7 @@ th {
 	margin-left: auto;
 	margin: auto;
 	width: 15vw;
-	height: 15vw;
+	height: 6vw;
 }
 .brand-logo-container {
 	background-color: #cccccc;
