@@ -189,6 +189,8 @@ th {
 .banner-area h2 {
 	color: #999;
 }
+.banner-area h2 .rotating {
+}
 .rotating-text {
 	font-weight: 200;
 	color: white;

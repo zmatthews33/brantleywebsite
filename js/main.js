@@ -11,6 +11,11 @@ $(document).ready(function() {
 	//        // Animate loader off screen
 	//        $(".preloader").fadeOut("slow");;
 	//    });
+	$('.rotating').Morphext({
+		animation: 'flipInX',
+		separator: ',',
+		speed: 3000
+	});
 
 	$('.fullscreen').css('height', window_height);
 	$('.fitscreen').css('height', fitscreen);
@@ -35,11 +40,11 @@ $(document).ready(function() {
 	// $(function(){
 	//     $('#Container').mixItUp();
 	// });
-	//var mixer = mixitup('#filter-content');
-	//$('.controls .filter').on('click', function(event) {
-	//	$('.controls .filter').removeClass('active');
-	//	$(this).addClass('active');
-	//});
+	var mixer = mixitup('#filter-content');
+	$('.controls .filter').on('click', function(event) {
+		$('.controls .filter').removeClass('active');
+		$(this).addClass('active');
+	});
 	// Add smooth scrolling to Menu links
 	$('.main-menu li a, .smooth').on('click', function(event) {
 		if (this.hash !== '') {
@@ -106,10 +111,6 @@ $(document).ready(function() {
 				}
 			});
 		});
-	});
-
-	$(document).ready(function() {
-		$('#mc_embed_signup').find('form');
 	});
 });
 (function($) {
