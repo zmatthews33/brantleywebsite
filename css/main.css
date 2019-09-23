@@ -210,7 +210,6 @@ th {
 	clear: both;
 }
 .dropdown-item {
-	color: #000;
 }
 
 .fz-11 {
@@ -1369,13 +1368,13 @@ th {
 }
 
 .brand-logo {
+	padding-left: 29px;
 	padding-top: 12px;
-	margin-left: auto;
-	margin: auto;
-	width: 80%;
+	width: 100%;
 	height: 100%;
 }
 .brand-logo-container {
+	text-align: center;
 	background-color: #cccccc;
 	border-style: solid;
 	border-radius: 25px;
