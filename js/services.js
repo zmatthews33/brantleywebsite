@@ -37,14 +37,6 @@ $(document).ready(function() {
 		$('.mobile-btn span').toggleClass('lnr-menu lnr-cross');
 	});
 
-	// $(function(){
-	//     $('#Container').mixItUp();
-	// });
-	var mixer = mixitup('#filter-content');
-	$('.controls .filter').on('click', function(event) {
-		$('.controls .filter').removeClass('active');
-		$(this).addClass('active');
-	});
 	//Add smooth scrolling to Menu links
 	$('.main-menu li a, .smooth').on('click', function(event) {
 		if (this.hash !== '') {
@@ -88,8 +80,31 @@ $(document).ready(function() {
 		var submit = $('.submit-btn'); // submit button
 		var alert = $('.alert'); // alert div for show alert message
 
+		// form submit event
+		form.on('submit', function(e) {
+			e.preventDefault(); // prevent default form submit
 
-
+			$.ajax({
+				url: 'mail.php', // form action url
+				type: 'POST', // form submit method get/post
+				dataType: 'html', // request type html/json/xml
+				data: form.serialize(), // serialize form data
+				beforeSend: function() {
+					alert.fadeOut();
+					submit.html('Sending....'); // change submit button text
+				},
+				success: function(data) {
+					alert.html(data).fadeIn(); // fade in response data
+					form.trigger('reset'); // reset form
+					submit.html(''); // reset submit button text
+				},
+				error: function(e) {
+					console.log(e);
+				}
+			});
+		});
+	});
+});
 (function($) {
 	$.fn.bekeyProgressbar = function(options) {
 		options = $.extend(
@@ -109,11 +124,9 @@ $(document).ready(function() {
 		var percentageRemaining = 100 - percentageProgress;
 		var percentageText = $progressCount.parent().attr('data-progress');
 
-
 		var radius = $circle.attr('r');
 		var diameter = radius * 2;
 		var circumference = Math.round(Math.PI * diameter);
-
 
 		var percentage = (circumference * percentageRemaining) / 100;
 
@@ -122,7 +135,7 @@ $(document).ready(function() {
 			'stroke-dashoffset': percentage
 		});
 
-
+		//Animation de la barre de progression
 		if (options.animate === true) {
 			$circle
 				.css({
@@ -136,6 +149,7 @@ $(document).ready(function() {
 				);
 		}
 
+		//Animation du texte (pourcentage)
 		if (options.animateText == true) {
 			$({ Counter: 0 }).animate(
 				{ Counter: percentageText },
