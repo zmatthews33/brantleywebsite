@@ -7,10 +7,6 @@ $(document).ready(function() {
 		header_height_static = $('.site-header.static').outerHeight(),
 		fitscreen = window_height - header_height;
 
-	// $(window).on('load', function() {
-	//        // Animate loader off screen
-	//        $(".preloader").fadeOut("slow");;
-	//    });
 	$('.rotating').Morphext({
 		animation: 'flipInX',
 		separator: ',',
